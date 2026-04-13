@@ -1,19 +1,17 @@
-# Active Directory Lab
+# Network Scan (Nmap)
 
-## Setup
-- Windows Server with Active Directory Domain Services (AD DS)
-- Domain configured in virtual lab environment
+## Objective
+Identify devices and open ports on a local network.
 
-## Tasks Completed
-- Created users and groups
-- Organised users into OUs (Sales, IT, HR)
-- Applied Group Policy settings (password rules, access restrictions)
-- Managed permissions for shared folders
+## Command Used
+nmap -sS 192.168.1.0/24
 
-## Simulated Scenarios
-- User account lockout
-- Password reset
-- Access denied to shared resources
+## Findings
+- Multiple active devices detected
+- Common open ports:
+  - 80 (HTTP)
+  - 443 (HTTPS)
+  - 22 (SSH)
 
 ## Outcome
-Demonstrates practical Active Directory administration and IT support capability.
+Demonstrates network discovery and basic security analysis skills.
